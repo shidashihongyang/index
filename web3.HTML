@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>我的大作业</title>
+	<link rel="stylesheet" type="text/css" href="web3.css">
+	<script src="animate.js"></script>
+</head>
+<body>
+	<div id="fir"><div id="fir1"><img src="a15.png"></div>
+		<div id="fir2"><p id="fir3">[温馨提示]最近有不少不法分子在网上骗人，请大家注意！！！</p></div>
+	</div>
+	<div class="box" >
+		<div class="sec">
+			<div class="sec1"><img src="b5.png"></div>
+		    <div class="sec1"><img src="b1.png"></div>
+		    <div class="sec1"><img src="b2.png"></div>
+		    <div class="sec1"><img src="b3.png"></div>
+		    <div class="sec1"><img src="b4.png"></div>
+		    <div class="sec1"><img src="b5.png"></div>
+		    <div class="sec1"><img src="b1.png"></div>	
+		</div>
+		<span id="left"><</span>
+		<span id="right">></span>
+		<ul class="nav">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+	var index=1;
+	function next(){
+		index++;
+		lamo();
+		animate(zero,{left:-1400*index},function(){
+			if(index===6){
+			    zero.style.left="-1400px";
+			    index=1;
+			}
+		});
+	}
+	function pre(){
+		index--;
+		lamo();
+		animate(zero,{left:-1400*index},function(){
+			if(index===0){
+			    zero.style.left="-7000px";
+			    index=5;
+			}
+		});
+	}
+	var timer=setInterval(next
+	,3000);

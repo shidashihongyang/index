@@ -1,0 +1,61 @@
+#fir{
+	border:1px solid red;s
+	width:1900px;
+	height:20px;   
+}
+#fir1{
+	position: absolute;
+	top:12px;
+	left:200px;
+}
+#fir2{
+	position:absolute; 
+	border: 1px solid red;
+	width: 1400px;
+	height: 20px;
+	top:10px;
+	font-size: 15px;
+	left:230px;
+	overflow: hidden;
+}
+#fir3{
+	position: absolute;
+	left:1300px;
+	top:-15px;
+	overflow: hidden;
+}
+.box{
+	width: 1400px;
+	height:382px;
+	position: absolute;
+	left: 100px;
+	top:70px;
+	overflow: hidden;
+}
+.sec{
+	width:9800px;
+	position: absolute;
+	left:-1400px;
+}
+.sec1{
+	width: 1400px;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 37px;
+	height: 60px;
+	text-align: center;
+	top:175px;
+	line-height: 70px;
+	background: red;
+	font-size: 30px;
+	position: absolute;
+	opacity: 10;
+}
+#left{
+	left:40px;
+}
+#right{
+	right:40px;
+}
